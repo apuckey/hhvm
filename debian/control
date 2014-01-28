@@ -1,0 +1,37 @@
+Source: hhvm
+Section: unknown
+Priority: extra
+Maintainer: Antoyn Puckey <apuckey@rawideas.com>
+Build-Depends: debhelper (>= 5), 
+               quilt (>= 0.40),
+               autotools-dev,
+               libboost-system1.49-dev,
+               libboost-thread1.49-dev,
+               libboost-program-options1.49-dev,
+               libboost-filesystem1.49-dev,
+               libboost-regex1.49-dev
+Standards-Version: 3.8.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: hhvm
+Architecture: amd64
+Depends: ${shlibs:Depends}, 
+         ${misc:Depends}, 
+         libicu42 (>= 4.2.1), 
+         binutils (>= 2.22), 
+         libtbb2 (>= 4.0), 
+         libonig2 (>= 5.9.1), 
+         libgd2-xpm (>= 2.0.36~rc1~dfsg), 
+         libc-client2007e (>= 8:2007b),
+         libboost-system1.49.0,
+	 libboost-thread1.49.0,
+         libboost-program-options1.49.0,
+         libboost-filesystem1.49.0,
+         libboost-regex1.49.0
+Description: Hiphop compile for Raw Ideas 
+ <insert long description, indented with spaces>
+
+Package: hhvm-doc
+Architecture: all
+Description: documentation for hiphopphp
+ <insert long description, indented with spaces>

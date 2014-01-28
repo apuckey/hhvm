@@ -1,0 +1,5 @@
+hhvm/
+hhvm-doc/
+*.log
+*.substvars
+stamp-makefile-build

@@ -1,0 +1,10 @@
+# Defaults for hhvm initscript
+# sourced by /etc/init.d/hhvm
+# installed at /etc/default/hhvm by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS="--mode daemon --user www-data --config /etc/hhvm-fastcgi.hdf"

@@ -1,0 +1,4 @@
+# The embassy packages use privately some of the EMBOSS libraries. They have
+# the same upstream authors and are released together.
+hiphopphp: binary-or-shlib-defines-rpath *
+

@@ -1,0 +1,247 @@
+hhvm (2.3.2-16) unstable; urgency=low
+
+  * fix remote_addr/host headers
+
+ -- Antony Puckey <apuckey@rawideas.com>  Mon, 6 Jan 2014 11:15:00 +1000
+
+hhvm (2.3.2-12) unstable; urgency=low
+
+  * server header fixes (fast_cgi_params).
+  * fix crash which was introduced to fix memory leak
+
+ -- Antony Puckey <apuckey@rawideas.com>  Mon, 6 Jan 2014 11:15:00 +1000
+
+hhvm (2.3.2-4) unstable; urgency=low
+
+  * update folly to latest master
+
+ -- Antony Puckey <apuckey@rawideas.com>  Sat, 28 Dec 2013 11:15:00 +1000
+
+hhvm (2.3.2-3) unstable; urgency=low
+
+  * update to latest master
+
+ -- Antony Puckey <apuckey@rawideas.com>  Sat, 28 Dec 2013 11:15:00 +1000
+
+hhvm (2.3.2-2) unstable; urgency=low
+
+  * update to latest master
+  * added support for all headers from apache/nginx
+
+ -- Antony Puckey <apuckey@rawideas.com>  Fri, 27 Dec 2013 15:15:00 +1000
+
+hhvm (2.3.2-1) unstable; urgency=low
+
+  * update to latest master
+  * added support for mod_fastcgi
+  * added server_name, server_addr, server_port to come from transport
+
+ -- Antony Puckey <apuckey@rawideas.com>  Wed, 25 Dec 2013 09:47:00 +1000
+
+hhvm (2.3.1-1) unstable; urgency=low
+
+  * update to latest master for fcgi fixes
+
+ -- root <apuckey@rawideas.com>  Wed, 18 Dec 2013 17:11:00 +1000
+
+hhvm (2.3.0-4) unstable; urgency=low
+
+  * fix pid file
+
+ -- root <apuckey@rawideas.com>  Wed, 11 Dec 2013 13:11:00 +1000
+
+hhvm (2.3.0-3) unstable; urgency=low
+
+  * fix init script to work better.
+
+ -- root <apuckey@rawideas.com>  Wed, 11 Dec 2013 13:11:00 +1000
+
+hhvm (2.3.0-2) unstable; urgency=low
+
+  * fix /etc/default/hhvm file and default to load hhvm-fastcgi.hdf config
+
+ -- root <apuckey@rawideas.com>  Wed, 11 Dec 2013 10:05:00 +1000
+
+hhvm (2.3.0-1) unstable; urgency=low
+
+  * update to lastest master
+  * convert package name to hhvm
+
+ -- root <apuckey@rawideas.com>  Wed, 11 Dec 2013 09:00:00 +1000
+
+hhvm (2.2.0-1) unstable; urgency=low
+
+  * removed memcache session module
+  * removed pdo persistent session fix which is now in upstream
+  * updated to latest git
+
+ -- root <apuckey@rawideas.com>  Wed, 9 Oct 2013 13:30:00 +1000
+
+hhvm (2.1.0-5) unstable; urgency=low
+
+  * removed memcache session module
+  * removed pdo persistent session fix which is now in upstream
+  * updated to latest git
+
+ -- root <apuckey@rawideas.com>  Wed, 9 Oct 2013 13:30:00 +1000
+
+hhvm (2.1.0-3) unstable; urgency=low
+
+  * removed locking from memcached session module
+
+ -- root <apuckey@rawideas.com>  Wed, 17 Jul 2013 09:30:00 +1000
+
+hhvm (2.1.0-2) unstable; urgency=low
+
+  * minor fixes to the memcached session module
+
+ -- root <apuckey@rawideas.com>  Tue, 16 Jul 2013 16:52:00 +1000
+
+hhvm (2.1.0-1) unstable; urgency=low
+
+  * update to current master
+
+ -- root <apuckey@rawideas.com>  Tue, 16 Jul 2013 10:52:00 +1000
+
+hhvm (2.0.0-3) unstable; urgency=low
+
+  * update to current master
+
+ -- root <apuckey@rawideas.com>  Wed, 24 Jun 2013 10:52:00 +1000
+
+hhvm (2.0.0-2) unstable; urgency=low
+
+  * update to current master
+
+ -- root <apuckey@rawideas.com>  Wed, 7 Jun 2013 10:52:00 +1000
+
+hhvm (2.0.0-1) unstable; urgency=low
+
+  * update to current master
+
+ -- root <apuckey@rawideas.com>  Wed, 16 May 2013 15:23:00 +1000
+
+hhvm (1.2.1-21) unstable; urgency=low
+
+  * added temporary pdo connection fix
+
+ -- root <apuckey@rawideas.com>  Wed, 13 Mar 2013 15:23:00 +1000
+
+hhvm (1.2.1-20) unstable; urgency=low
+
+  * Synced latest changes from repo
+  * added openssl 1.0.0e to package
+
+ -- root <apuckey@rawideas.com>  Tue, 11 Mar 2013 13:35:00 +1000
+
+hhvm (1.2.1-19) unstable; urgency=low
+
+  * Changed Stack back to 8MB
+  * added libglog to the debian package
+  * Synced latest changes from repo
+
+ -- root <apuckey@rawideas.com>  Tue, 28 Feb 2013 14:52:00 +1000
+
+hhvm (1.2.1-18) unstable; urgency=low
+
+  * Changed Stack size to 32MB
+
+ -- root <apuckey@rawideas.com>  Tue, 19 Feb 2013 14:52:00 +1000
+
+hhvm (1.2.1-17) unstable; urgency=low
+
+  * Added libxml 2.9.0
+
+ -- root <apuckey@rawideas.com>  Wed, 28 Dec 2012 15:57:00 +1000
+
+hhvm (1.2.1-16) unstable; urgency=low
+
+  * latest github changes to: cfb712e2b238f3e15d7d939bd6ee708b3769ab16
+
+ -- root <apuckey@rawideas.com>  Wed, 20 Dec 2012 17:21:00 +1000
+
+hhvm (1.2.1-15) unstable; urgency=low
+
+  * added persistent pdo fix to get rid of segfault https://github.com/ctc/hiphop-php/commit/de679668f27a8b4d3849d63e3d07cff88c0593bd
+
+ -- root <apuckey@rawideas.com>  Wed, 9 Dec 2012 15:52:00 +1000
+
+hhvm (1.2.1-14) unstable; urgency=low
+
+  * upstream changes in attempt to fix random segfault
+
+ -- root <apuckey@rawideas.com>  Wed, 6 Dec 2012 14:33:00 +1000
+
+hhvm (1.2.1-13) unstable; urgency=low
+
+  * changed to jemalloc to test memory usage
+
+ -- root <apuckey@rawideas.com>  Wed, 5 Dec 2012 11:50:00 +1000
+
+hhvm (1.2.1-12) unstable; urgency=low
+
+  * synced upstream changes [5c736b05]
+
+ -- root <apuckey@rawideas.com>  Wed, 4 Dec 2012 10:43:00 +1000
+
+hhvm (1.2.1-10) unstable; urgency=low
+
+  * synced upstream changes
+
+ -- root <apuckey@rawideas.com>  Wed, 14 Nov 2012 16:31:01 -0700
+
+hhvm (1.2.1-9.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Switch to dpkg-source 3.0 (quilt) format
+
+ -- root <root@ubuntu.example.org>  Mon, 12 Nov 2012 21:55:15 -0800
+
+hhvm (1.2.1-9) unstable; urgency=low
+
+  * added memcache support for sessions with direct configure via hdf file.
+
+ -- root <apuckey@rawideas.com>  Wed, 10 Oct 2012 16:31:01 -0700
+
+hhvm (1.2.1-7) unstable; urgency=low
+
+  * fixed init scripts.
+
+ -- root <apuckey@rawideas.com>  Wed, 10 Oct 2012 16:31:01 -0700
+
+hhvm (1.2.1-6) unstable; urgency=low
+
+  * fixed init scripts.
+
+ -- root <apuckey@rawideas.com>  Wed, 10 Oct 2012 16:31:01 -0700
+
+hhvm (1.2.1-5) unstable; urgency=low
+
+  * added latest github commits
+  * added init script to restart, stop and start hiphop for puppet updates.
+
+ -- root <apuckey@rawideas.com>  Wed, 10 Oct 2012 16:31:01 -0700
+
+hhvm (1.2.1-4) unstable; urgency=low
+
+  * dummy change
+
+ -- root <apuckey@rawideas.com>  Wed, 10 Oct 2012 16:31:01 -0700
+
+hhvm (1.2.1-3) unstable; urgency=low
+
+  * Changed compiler optimizations
+
+ -- root <apuckey@rawideas.com>  Wed, 10 Oct 2012 16:31:01 -0700
+
+hhvm (1.2.1-2) unstable; urgency=low
+
+  * Added RPATH (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <apuckey@rawideas.com>  Wed, 10 Oct 2012 16:31:01 -0700
+
+hhvm (1.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <apuckey@rawideas.com>  Wed, 10 Oct 2012 16:31:01 -0700
